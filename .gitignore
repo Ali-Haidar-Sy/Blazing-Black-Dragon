@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Reports / outputs
+reports/
+*.html
+*.json
+*.csv
+*.xml
+*.txt
+clickjacking_poc.html
+nikto_output.txt
+nuclei_output.txt
+sqlmap/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Sensitive (if you ever add .env)
+.env
+*.key
+*.pem
